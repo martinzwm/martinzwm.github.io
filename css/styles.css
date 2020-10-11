@@ -1,0 +1,45 @@
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.master-head {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.colour-blue {
+  background-color: #00cfef;
+}
+.colour-orange {
+  background-color: #FF8300;
+}
+
+.row-lightgray {
+  background-color: #F7F7F7;
+  border: 1px solid #DDD;
+  border-radius: 25px;
+}
+
+.colour-gray {
+  background-color: #373F51;
+}
+
+ /* Experience */

@@ -1,1 +1,268 @@
-<h1> Hello! </h1>
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Martin Ma</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom stylesfor the website -->
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark colour-gray fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"> Martin Ma </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cv/martin_ma_cv.pdf">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-white colour-lightgray">
+      <div class="container text-center">
+        <h1 class="master-head pb-5 text-gray">Hi! I'm Martin.</h1>
+        <div class="container">
+          <img src="images/martin_ma.jpg" width=400 class="center">
+
+          <!-- <div class="pt-2 mr-lg-1 row d-inline-flex my-5 justify-content-center align-items-center row-lightgray">
+              <div class="pl-sm-3 ml-md-auto align-self-center" style="width: 250px !important;">
+                <img class="w-100" src="images/university_of_waterloo_logo-500x151.png" alt="Card image">
+              </div>
+              <div class="px-3 ml-sm-4 mx-0 pb-2 pb-sm-3 align-self-center" style="width: 200px !important;">
+                <img class="w-100" src="images/cisco.png" alt="Card image">
+              </div>
+              <div class="px-3 ml-sm-4 mx-0 pb-2 pb-sm-3 align-self-center" style="width: 200px !important;">
+                <img class="w-100" src="images/Ciena_logo.png" alt="Card image">
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 mx-auto">
+              <h2>About Me</h2>
+              <p class="lead"> I am an undergraduate student in the department of Chemical Engineering at the University of Waterloo. I am really interested in ML and I'm pursuing an <a href="https://uwaterloo.ca/engineering/news/ai-option-top-choice-engineering-undergrads">option in AI</a>. I currently do research with George Shaker in data mining in radar sensing. I hope to pursue a master in machine learning, particularly in deep learning and reinforcement learning, as well as their applications in sequential decision making, generative modelling, and multi-agent systems. I have done research and industrial internships and projects in the areas of autonomous vehicle, computer vision, reinforment learning, oil & gas, and more. 
+              
+              <p class="lead"> Please feel free to reach out via <a href="mailto:z74ma@uwaterloo.ca">email</a> - I love talking about my projects.
+                <ul>
+                  <li><a href="https://github.com/martinzwm" class="lead"> My Github Repository</a></li>
+                  <li><a href="https://www.linkedin.com/in/martinzwm/" class="lead"> My Linkedin</a></li>
+                </ul>
+              </p>
+              </div>
+          </div>
+        </div>
+      </section>
+    
+    <section id="projects" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-5 pl-5">
+            <h2>Projects</h2>
+          </div>
+          <div class="col-md-6 col-lg-4 p-3">
+            <div class="card w-100">
+                <img class="card-img" src="images/lane_detection.gif" width=600 alt="Card image"><br/>
+                <div class="card-title p-3">
+                    <h5>Lane Detection</h5>
+                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/martinzwm/lane-detection'"> Source Code </button>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 p-3"> 
+            <div class="card w-100">
+              <img class="card-img" src="images/path_planner.gif" alt="Card image">
+              <div class="card-title p-3">
+                <h5>Path Planner</h5>
+                <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/martinzwm/path-planner'"> Source Code </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 p-3">
+            <div class="card w-100">
+              <img class="card-img" src="images/style_transfer.jpg" alt="Card image">
+              <div class="card-title p-3">
+                <h5>Style Transfer</h5>
+                <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/martinzwm/stanford-cs231n/blob/master/assignment3/StyleTransfer-PyTorch.ipynb'"> Source Code </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 p-3">
+            <div class="card w-100">
+                <img class="card-img" src="images/tetris.gif" alt="Card image">
+                <div class="card-title p-3"> 
+                    <h5>Tetris.ai</h5>
+                    <button type="button" class="btn btn-primary" onclick="location.href='https://github.com/martinzwm/tetris-ai'"> Source Code </button>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 p-3">
+            <div class="card w-100">
+              <img class="card-img" src="images/well_design_plot.png" alt="Card image">
+              <div class="card-title p-3">
+                <h5>Virtual Metering</h5>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maze-bot"> More Info </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    
+    <!-- <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'> -->
+        <link rel="stylesheet" href="css/style_experience.css">
+    
+    <!-- <body>
+      <script src="https://use.typekit.net/bkt6ydm.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+
+    <div class="container-fluid" id="experience">
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+        <div class="row example-split">
+            <div class="col-12 mb-5 pl-5">
+              <h2>Experience</h2>
+              &nbsp;
+            </div>
+
+            <div class="row justify-content-md-center">
+              <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                  <ul class="timeline timeline-split">
+                      <li class="timeline-item">
+                          <div class="timeline-info">
+                              <p><b>University of Waterloo</b></p>
+                              <p>2020 Sept - Present</p>
+                          </div>
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="timeline-title" font-size=10>Research Intern</h5>
+                              <p>Working in George Shaker's group on applying deep learning for detection and localization of people inside vehicle using in-car radar sensor.</p>
+                          </div>
+                      </li>
+                      <li class="timeline-item">
+                          <div class="timeline-info">
+                            <p><b>University of Waterloo</b></p>
+                              <span>2020 May - Aug</span>
+                          </div>
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="timeline-title">Autonomous Vehicle Engineering Intern</h5>
+                              <p>Worked with Prof. Krzysztof Czarnecki on implementing state-of-the-art uncertainty estimation methods in 3D LiDAR object detection neural network.</p>
+                          </div>
+                      </li>
+                      <li class="timeline-item">
+                          <div class="timeline-info">
+                              <p><b>Suncor</b></p>
+                              <span>2019 Sept - Dec</span>
+                          </div>
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="timeline-title">Production Engineering Intern</h5>
+                              <p>Reduced unreachable underground oil field temperature prediction by over 60% through developing a regression neural network.</p>
+                          </div>
+                      </li>
+                      <li class="timeline-item">
+                          <div class="timeline-info">
+                            <p><b>Petro-Canada Lubricants</b></p>
+                            <span>2019 Jan - Apr</span>
+                          </div>
+                          <div class="timeline-marker"></div>
+                          <div class="timeline-content">
+                              <h5 class="timeline-title">Process Engineering Intern</h5>
+                              <p>Reduced plant power consumption by 12% through optimizing the plant controller operating functions through cost/benefit analysis.</p>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+        </div>
+    </div>
+      
+      
+    </body>
+    <!-- Modals -->
+    <div class="modal fade" id="maze-bot" tabindex="-1" role="dialog" aria-labelledby="tetris-neural-net" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="tetris-title">Virtual Metering</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="col">
+                <p class="lead">Due to confidentiality, the source code cannot be publically revealed. However, if you have any question, you can always email me <a href="mailto:z74ma@uwaterloo.ca">here</a>. </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <footer class="py-4 bg-dark" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-white">Contact Me</h2>
+              <p class="lead text-white">You can always email me <a href="mailto:z74ma@uwaterloo.ca">here </a> if you want to get in touch or work on a project together!</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
